@@ -1,0 +1,29 @@
+{
+    "name": "makeEditable",
+    "title": "jQuery makeEditable",
+    "description": "A jQuery plugin to transform text span to specified HTML input element on click to provide elegent display and editing.",
+    "keywords": [
+        "editable",
+        "input",
+        "text to editable",
+        "text"
+    ],
+    "version": "1.0.1",
+    "author": {
+        "name": "Waqar Ali Khan",
+        "url": "https://github.com/waqarkhan88"
+    },
+    "licenses": [
+        {
+            "type": "GPLv2",
+            "url": "https://github.com/waqarkhan88/jquery-plugin-makeEditable/blob/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/waqarkhan88/jquery-plugin-makeEditable/issues",
+    "homepage": "https://github.com/waqarkhan88/jquery-plugin-makeEditable",
+    "docs": "https://github.com/waqarkhan88/jquery-plugin-makeEditable",
+    "download": "http://code.jquery.com/#makeEditable",
+    "dependencies": {
+        "jquery": ">=1.9"
+    }
+}
