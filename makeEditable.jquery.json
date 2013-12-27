@@ -21,7 +21,7 @@
     ],
     "bugs": "https://github.com/waqarkhan88/jquery-plugin-makeEditable/issues",
     "homepage": "https://github.com/waqarkhan88/jquery-plugin-makeEditable",
-    "docs": "https://github.com/waqarkhan88/jquery-plugin-makeEditable",
+    "docs": "https://github.com/waqarkhan88/jquery-plugin-makeEditable/wiki",
     "download": "http://code.jquery.com/#makeEditable",
     "dependencies": {
         "jquery": ">=1.9"
