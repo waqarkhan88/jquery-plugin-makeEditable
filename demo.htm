@@ -1,0 +1,40 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/JavaScript" src="jQuery.makeEditable.js"></script>
+</head>
+<body>
+<script type="text/JavaScript">
+
+$(document).ready(function() {
+	$("span[data-type]").makeEditable();
+});
+
+var dataCallback = function() {
+	var valuesList = [];
+	valuesList.push({value: 1, label: "Value 1"});
+	valuesList.push({value: 2, label: "Value 2"});
+	valuesList.push({value: 3, label: "Value 3"});
+	valuesList.push({value: 4, label: "Value 4"});
+	
+	return valuesList;
+};
+
+</script>
+
+<table>
+<tr>
+	<td><span id="testSpan1" data-type="boolean">No</span></td>
+</tr>
+
+<tr>
+	<td><span id="testSpan2" data-type="list" data-value="1" data-callback="dataCallback">Value 1</span></td>
+</tr>
+
+<tr>
+	<td><span id="testSpan3" data-type="text" data-elemName="useThisElemName">Here is my text</span></td>
+</tr>
+</table>
+
+</body>
+</html>
